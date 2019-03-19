@@ -106,7 +106,7 @@ var profile;
 	swal(
 		{
 			title:"helloWorld!!!",
-			text:"Hello visitor, you have landed upon little webspace of moghya.",
+			text:"Hello visitor, you have landed upon little webspace of Sandeep.",
 			confirmButtonColor:"#1f1f1f"
 		}
 	);
