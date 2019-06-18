@@ -43,7 +43,7 @@ ul, ol, dl, figure,
  * Articles
  */
 article {
-    background: #faf9f5;
+    background: #111111;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
     margin-bottom: $spacing-unit;
     padding: 3em 3em 1em;
@@ -91,11 +91,11 @@ article {
     text-align: center;
 
     &:before {
-        background: #faf9f5;
+        background: #161615;
         border: 1px solid #d9d6d0;
         border-radius: 50%;
         box-shadow: 0 0 0 4px #faf9f5;
-        color: #a09a92;
+        color: #02b5dd;
         content: "p";
         display: inline-block;
         font-family: libretto-icons;
@@ -116,7 +116,7 @@ article {
         }
 
         &:before {
-            color: #d9d6d0;
+            color: #04011c;
             content: "~";
             display: inline-block;
             font-family: libretto-icons;
@@ -127,7 +127,7 @@ article {
         }
 
         &:after {
-            color: #d9d6d0;
+            color: #161615;
             content: "`";
             display: inline-block;
             font-family: libretto-icons;
@@ -165,7 +165,7 @@ img {
  * Figures
  */
 figure {
-    background: #fff;
+    background: #191918;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.025);
     padding: 0.5em;
 }
@@ -252,7 +252,7 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: #383735;
 }
 
 code {
