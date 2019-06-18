@@ -28,3 +28,5 @@ twitter_username:   AakashGerrard8
 markdown: kramdown
 
 
+
+theme: jekyll-theme-midnight
