@@ -1,32 +1,47 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing these this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: My Blog
-email: abhusal7@gmail.com
-description:  # this means to ignore newlines until "baseurl:"
-  All I want to post.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://aakashbhusal7.github.io" # the base hostname & protocol for your site
+title: Aakash Bhusal
+description: 'Wubba lubba dub dub'
+url: 'https://aakashb.com.np'
+baseurl: ''
+google_analytics: 'UA-128303089-1'
+disqus_shortname: 'madhusudhansubedi'
+future: true
 
-github_username:    aakashbhusal7
-instagram_username: picklerick1
-twitter_username:   AakashGerrard8
+author:
+  name: 'Aakash Bhusal'
+  email: abhusal7@gmail.com
+  twitter_username: AakashGerrard8
+  facebook_username: aakash.bhusal
+  github_username:  aakashbhusal7
+  linkedin_username:  aakash-bhusal-b88047136
+  instagram_username: picklerick1
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
 
 # Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
 markdown: kramdown
+highlighter: rouge
 
+sass:
+    sass_dir: _sass
+    style: compressed
 
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
 
-theme: jekyll-theme-midnight
+plugins:
+  - jekyll-paginate
+  - jekyll-seo-tag
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
