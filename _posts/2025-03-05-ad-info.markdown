@@ -1,0 +1,11 @@
+---
+layout: post
+title: 'Ad Information'
+author: Aakash
+date: '2025-03-05 08:12:11 -0400'
+categories: blog
+---
+
+
+# AdMob app-ads.txt file
+google.com, pub-9642915726528387 DIRECT, f08c47fec0942fa0
